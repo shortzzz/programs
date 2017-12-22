@@ -1,0 +1,5 @@
+[#0]
+T=5
+F=COPYRIGHT
+1=$regexp(%copyright%,'[^abcdefghijklmnopqrstuvwxyz0123456789_\\|\\\\]+',_)
+
