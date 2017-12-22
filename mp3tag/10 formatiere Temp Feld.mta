@@ -1,0 +1,5 @@
+[#0]
+T=5
+F=COPYRIGHT
+1=$regexp(%artist%,'[\\|\\\\]',)\\$regexp(%album%,'[\\|\\\\]',)\\$regexp(%artist%,'[\\|\\\\]',)|$regexp(%album%,'[\\|\\\\]',)|$regexp($num(%track%,3),'[\\|\\\\]',)$if(eql(%genre%,'Audiobook'),,|$regexp(%title%,'[\\|\\\\]',))
+
