@@ -1,5 +1,5 @@
 [#0]
 T=5
 F=COPYRIGHT
-1=$if(eql(%genre%,'Audiobook'),'Y:\\audiobooks','Y:\\music')\\%copyright%
+1=$if($eql(%genre%,'Audiobook'),'Y:\\audiobooks','Y:\\music')\\%copyright%
 
